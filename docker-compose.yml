@@ -1,9 +1,8 @@
-version: '3'
 services:
   smtp:
-    image: namshi/smtp
+    image: ghcr.io/parsQube-ka/smtp
     container_name: smtp_relay
-    restart: always
+    restart: unless-stopped
     ports:
      - "25:25"
     environment:
