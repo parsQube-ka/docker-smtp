@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: parsQube-ka/docker-smtp
+  IMAGE_NAME: parsqube-ka/docker-smtp
 
 jobs:
   build-and-publish-ghcr:

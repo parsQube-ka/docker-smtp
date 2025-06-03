@@ -1,6 +1,6 @@
 services:
   smtp:
-    image: ghcr.io/parsQube-ka/smtp
+    image: ghcr.io/parsqube-ka/smtp
     container_name: smtp_relay
     restart: unless-stopped
     ports:
